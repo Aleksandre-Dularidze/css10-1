@@ -1606,4 +1606,24 @@ element.style {
   .noneSet {
     display: none;
   }
+
+  .btnOne {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .btnTwo {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+  
+  .howDiv {
+    gap: 40px;
+  }
+
+  .registerBoxes {
+    gap: 0;
+  }
 }
