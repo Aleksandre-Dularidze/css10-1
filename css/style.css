@@ -1454,6 +1454,7 @@ element.style {
     max-width: 100%;
     justify-content: space-between;
     padding-top: 16px;
+    gap: 8px;
   }
 
   .logo {
@@ -1493,7 +1494,7 @@ element.style {
     /* max-width: 256px; */
     width: 90%;
     align-items: center;
-    padding: 52px 16px;
+    padding: 30px 16px;
     /* stroke-width: 29px; */
     /* stroke: #0c9a12; */
     border-bottom: 1px solid #4a4a4e;
@@ -1569,8 +1570,10 @@ element.style {
   .none {
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding: 40px 16px 0;
     gap: 12px;
+    max-width: 100%;
+    width: 100%;
   }
   .bg .slide {
     display: none;
@@ -1618,12 +1621,16 @@ element.style {
     max-width: 100%;
     justify-content: center;
   }
-  
+
   .howDiv {
     gap: 40px;
   }
 
   .registerBoxes {
     gap: 0;
+  }
+
+  .fit {
+    font-size: 48px;
   }
 }
